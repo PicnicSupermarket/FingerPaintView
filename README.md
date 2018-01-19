@@ -44,14 +44,14 @@ dependencies {
 2. Make sure the view is in edit mode (`app:inEditMode="true"`)
 
 3. Go crazy drawing on the view. When you're done with the drawing, you can access the final bitmap
-via the view's `getDrawable()` metho. This bitmap will be the result of the original bitmap plus your custom drawing) 
+via the view's `getDrawable()` method. This bitmap will be the result of the original bitmap combined with your custom drawing)
 ```java
 val bitmap = fingerPaintView.bitmap
 ```
 
 ## Features
 * `WYSIWYG`: transformation and scaling is applied to ensure the final bitmap is the same as what you see on screen
-* Define different settings for each path
+* Define different settings for each individual path
 * Smooth bézier paths
 * Undo and clear all support
 
