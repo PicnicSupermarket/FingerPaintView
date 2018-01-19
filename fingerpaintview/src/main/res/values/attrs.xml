@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FingerPaintImageView">
+        <attr name="strokeColor" format="color" />
+        <attr name="strokeWidth" format="dimension" />
+        <attr name="inEditMode" format="boolean" />
+        <attr name="touchTolerance" format="float" />
+    </declare-styleable>
+</resources>
