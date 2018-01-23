@@ -1,5 +1,5 @@
 # FingerPaintView
-![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat)
+![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat) [![Android Arsenal]( https://img.shields.io/badge/Android%20Arsenal-FingerPaintView-green.svg?style=flat )]( https://android-arsenal.com/details/1/6715 )
 
 A simple view to allow drawing on top of any bitmap, which generates a final bitmap with the correct scaling and transformations applied to it, ensuring the output respects what is shown on the screen.
 
