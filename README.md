@@ -68,6 +68,8 @@ The following attributes can be set either via xml or programmatically at runtim
 ## Sample
 Refer to the sample project to see a live example of this library in action.
 
+![sample](https://raw.githubusercontent.com/PicnicSupermarket/FingerPaintView/master/sample.gif)
+
 ## Contributing
 To contribute code you can do so through directly via GitHub by forking this repository and sending a pull request.
 
