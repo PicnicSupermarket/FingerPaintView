@@ -16,7 +16,7 @@ allprojects {
 }
 ```
 
-Add this to your module's `build.gradle` file (make sure the version matches the JitPack badge above):
+Add this to your module's `build.gradle` file:
 
 ```gradle
 dependencies {
@@ -44,7 +44,7 @@ dependencies {
 2. Make sure the view is in edit mode (`app:inEditMode="true"`)
 
 3. Go crazy drawing on the view. When you're done with the drawing, you can access the final bitmap
-via the view's `getDrawable()` method. This bitmap will be the result of the original bitmap combined with your custom drawing)
+via the view's `getDrawable()` method. This bitmap will be the result of the original bitmap combined with your custom drawing.
 ```java
 val bitmap = fingerPaintView.bitmap
 ```
