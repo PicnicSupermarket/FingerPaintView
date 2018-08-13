@@ -23,6 +23,9 @@ class SampleActivity : AppCompatActivity(), SeekBar.OnSeekBarChangeListener, Vie
         blue.setOnSeekBarChangeListener(this)
         tolerance.setOnSeekBarChangeListener(this)
         width.setOnSeekBarChangeListener(this)
+        normal.setOnClickListener(this)
+        emboss.setOnClickListener(this)
+        blur.setOnClickListener(this)
     }
 
     override fun onProgressChanged(seekBar: SeekBar?, progress: Int, fromUser: Boolean) {
@@ -46,6 +49,9 @@ class SampleActivity : AppCompatActivity(), SeekBar.OnSeekBarChangeListener, Vie
             clear -> finger.clear()
             close -> hidePreview()
             save -> showPreview()
+            emboss -> finger.emboss()
+            blur -> finger.blur()
+            normal -> finger.normal()
         }
     }
 

@@ -175,12 +175,45 @@
             <TextView
                 android:id="@+id/colorPreview"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
                 android:gravity="center"
-                android:text="#FFFFFF"
-                android:textColor="#FFFFFF" />
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center"/>
+
+            <RadioGroup
+                android:id="@+id/typeGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checkedButton="@id/normal">
+
+                <RadioButton
+                    android:id="@+id/normal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Normal"
+                    android:textSize="11dp"/>
+
+                <RadioButton
+                    android:id="@+id/emboss"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Emboss"
+                    android:textSize="11dp"/>
+
+                <RadioButton
+                    android:id="@+id/blur"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Blur"
+                    android:textSize="11dp"/>
+
+            </RadioGroup>
+
+
 
         </LinearLayout>
+
 
     </LinearLayout>
 
