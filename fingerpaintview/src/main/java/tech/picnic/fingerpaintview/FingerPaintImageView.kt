@@ -162,7 +162,7 @@ class FingerPaintImageView @JvmOverloads constructor(context: Context,
 
         // make sure drawings are kept within the image bounds
         if (imageBounds.contains(event.x, event.y)) {
-            paths.add(Path().also { it.moveTo(event.x, event.y) } to Paint(pathPaint))
+            paths.add(Path().also { it.moveTo(event.x + 1, event.y + 1) } to Paint(pathPaint))
             currentX = event.x
             currentY = event.y
         }
