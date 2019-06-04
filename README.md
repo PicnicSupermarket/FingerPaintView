@@ -21,7 +21,7 @@ Add this to your module's `build.gradle` file:
 ```gradle
 dependencies {
 	...
-	compile 'com.github.picnic:FingerPaintView:1.0.0'
+	implementation 'com.github.PicnicSupermarket:FingerPaintView:1.0'
 }
 ```
 
@@ -30,7 +30,7 @@ dependencies {
 1. Include the `FingerPaintImageView` into your layout `xml` file. Make sure you set the base `src` image:
 
 ```xml
-<nl.picnic.fingerpaintview.FingerPaintImageView
+<tech.picnic.fingerpaintview.FingerPaintImageView
         android:id="@+id/finger"
         android:layout_width="300dp"
         android:layout_height="300dp"
