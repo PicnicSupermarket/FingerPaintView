@@ -21,7 +21,7 @@ Add this to your module's `build.gradle` file:
 ```gradle
 dependencies {
 	...
-	implementation 'com.github.PicnicSupermarket:FingerPaintView:1.0'
+	implementation 'com.github.PicnicSupermarket:FingerPaintView:1.1'
 }
 ```
 
